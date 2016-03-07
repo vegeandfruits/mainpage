@@ -1,36 +1,27 @@
-@media (min-width: 992px) {
-    .mobile-only {
-        display: none;
-    }
+body {
+    margin-top: 60px;
 }
-.zero-margin-padding {
-    margin: 0px;
-    padding: 0px;
+.nav-logo {
+    height: 60px;
+    max-height: 60px;
 }
-.pulldown {
-    margin-top: 80px;
+
+.big-logo {
+    height: 250px;
+    max-height: 250px;
 }
-.backdrop {
-    max-width: 100%;
-    max-height: 580px;
+.contact-details {
+    font-size: 22px;
 }
-.logo {
-    width: 30%;
-    position: absolute;
-    top: 7%;
-    left: 35%;
-    z-index: 1;
+.contact-details-whatsapp {
+    color: #49E20E;
 }
-@media (max-width: 992px) {
-    .backdrop {
-        display: none;
-    }
-    .logo {
-        position: relative;
-        display: none;
-    }
-    .logo-mobile {
-        padding-top: 20px;
-        width: 90%;
-    }
+.contact-details-whatsapp i{
+    color: #00FF00;
+}
+.contact-details-email {
+    color: #0000FF;
+}
+.contact-details a:hover, a:visited, a:focus {
+    text-decoration: none;
 }
