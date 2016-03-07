@@ -1,0 +1,36 @@
+@media (min-width: 992px) {
+    .mobile-only {
+        display: none;
+    }
+}
+.zero-margin-padding {
+    margin: 0px;
+    padding: 0px;
+}
+.pulldown {
+    margin-top: 80px;
+}
+.backdrop {
+    max-width: 100%;
+    max-height: 580px;
+}
+.logo {
+    width: 30%;
+    position: absolute;
+    top: 7%;
+    left: 35%;
+    z-index: 1;
+}
+@media (max-width: 992px) {
+    .backdrop {
+        display: none;
+    }
+    .logo {
+        position: relative;
+        display: none;
+    }
+    .logo-mobile {
+        padding-top: 20px;
+        width: 90%;
+    }
+}
